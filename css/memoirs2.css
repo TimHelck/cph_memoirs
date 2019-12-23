@@ -1,0 +1,261 @@
+body {background-color: #112411; color: linen;}
+A:link {color: #afdcaf;}
+A:visited {color: #90a0b0;}
+A:active {color: khaki;}
+
+body.picture {background-color: #222222; color: khaki;}
+body { 
+	margin-topX:50px;
+	overflow-y:scroll;
+	height: 100;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+.intro {
+	color: #112411;
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+	justify-contentX: center;
+	justify-content: flex-start;
+	margin: 0 40px;
+	position:fixed;
+	top: 0;
+    left: 0;
+    bottom: 0;
+	width:96%;
+	height:150px;
+	background-color: #112411;
+	z-index:10;
+}
+
+
+#header .info  {
+	display: flex;
+	flex-direction: column;
+	justify-contentX: flex-start;
+	margin-leftX:30px;
+	color: #afdcaf;
+	font-family: georgia,"times new roman",times,serif;
+	padding-bottom:12px;
+}
+
+#header .info div {
+	margin: auto;
+}
+.cphInfo {
+	display: flex;
+	flex-direction: row;
+	justifyX-content: center;
+	align-items:baseline;
+}
+.cphInfo span {
+	font-family: georgia,"times new roman",times,serif;
+	font-size:30px;
+	padding: 0 40px;
+	margin: auto;
+}
+.cphInfo .name {
+	font-size:40px;
+}
+
+#header .info {
+	width:90%;
+}
+
+#header .info > div {
+	font-family: verdana, sans-serif;
+	font-size:20px;
+}
+
+#header .info .title  { font-size:18px; }
+#header .info .source { font-size:14px; }
+
+#menu, #nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items:baseline;
+	font-family: arial, sans-serif;
+
+}	
+#menu {
+	font-size: 11px;
+	positionX:fixed;
+	margin-topX:-50px;
+	topX: 0;
+    lefXt: 0;
+    rightX: 0;
+	background-color: #112411;
+	padding: 15px 0;
+}
+#nav {
+	font-size: 13px;
+	marginX: 10px 40px;
+	background-colorX: #112411;
+	background-color: #114033;
+	padding: 7px 0;
+
+}
+
+#header .headline div {
+	font-size:40px;
+	margin:20px 40px;
+
+}
+#header .cphInfo div.name  {
+	font-size:40px;
+}
+
+#headerDetail {
+	display: flex;
+	flex-direction: row;
+}
+
+#headerDetail div {
+	margin: 10px 50px;
+}
+#menu ul {
+  list-style-type: none;
+}
+
+
+#header div.heroXXX  {
+	flex-direction: column;
+	font-size:40px;
+	margin:auto;
+	
+}
+
+#sections {
+	padding-top:140px;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.section .headline  {
+	margin:2px auto 2px 180px;
+}
+.section .headline span.name  {
+	font-size:30px;
+}
+
+.section .headline span {
+	font-size:20px;
+	margin:10px;
+} 
+
+.sectionTab  {
+	margin: 0 15px;
+}
+.sectionTab img  {
+	position:relative;
+	top:3px;
+}
+
+div.text {
+	background-color:#F3E9CC;
+	border-top:31px none;
+	color:#000000;
+	font-size:110%;
+	padding:10px 20px 10px 20px;
+	width:57%;
+	margin:20px auto 20px 180px;
+	font-family: georgia,"times new roman",times,serif;
+	font-familyX: arial, sans-serif;
+}
+
+.text .year {
+	position:absolute;
+	left:90px;
+	color:linen;
+}
+
+.text .note {
+	position:absolute;
+	right:55px;
+	color:linen;
+	width:300px;
+	font-family:arial;
+	font-size:12px;
+}
+
+.text .noteRef {
+	background-color:#fff8ee;
+}
+.text .picture {
+	margin:10px auto 10px;
+}
+
+.text .picture.medium { width:500px; }
+.text .picture.full   { width:690px; }
+.text .picture.small  { width:340px; }
+.text .picture.small.left  { float:left; margin-right:15px; text-alignX:center;}
+.text .picture.small.right { float:right; margin-left:15px; text-alignX:center;}
+
+.text .pictures {
+	display: flex;
+	flex-direction: row;
+	justify-contentX:space-between;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+
+.text .pictures img {
+	margin-top: 10px;
+	margin-bottomX:10px;
+}
+
+.text .pictures + .caption {
+	display:block;
+	text-align:justify;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-family:arial;
+	font-size:12px;
+}
+
+.text .picture img {
+	margin:auto;
+	margin-bottom:5px;
+}
+
+.text .picture .caption {
+	font-family:arial;
+	font-size:12px;
+	text-align:left;
+}
+
+.vertSpace10 { height:10px; clear:both; }
+.vertSpace20 { height:20px; clear:both; }
+
+.text p{
+	margin-top:0;
+}
+
+table {
+	width:80%;
+	margin-left:20px;
+}
+
+td, th {
+	color:black;
+	font-family:arial;
+}
+th {
+	text-align:left;
+}
+.tableCaption {
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	margin-left:20px;
+}
